@@ -34,3 +34,4 @@ I am a beginner front-end developer. I want to learn all the necessary skills to
 
 - Russian - native
 - English - C1 Advanced
+![efset_certificate](images/efset_cetificate.png){width=450}
