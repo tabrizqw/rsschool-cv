@@ -9,7 +9,7 @@ Discord: @tabrizqw
 
 ### about me
 
-I am a beginner front-end developer. I want to learn all the necessary skills to become a junior Front-end developer.  I am eager to learn new information and willing to put in effort. I have no working experience at the moment.
+I am a beginner frontend developer. I want to learn all the necessary skills to become a junior frontend developer.  I am eager to learn new information and willing to put in effort. I have no working experience at the moment.
 
 ### skills
 
@@ -20,9 +20,9 @@ I am a beginner front-end developer. I want to learn all the necessary skills to
 ### code example
 
 ```js
-    function even_or_odd(number) {
-        return (number % 2 === 0) ? "Even" : "Odd"
-    }
+function even_or_odd(number) {
+    return (number % 2 === 0) ? "Even" : "Odd"
+}
 
 ```
 
