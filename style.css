@@ -1,0 +1,130 @@
+:root {
+  --light-color: #f2f7f2;
+  --dark-color: #262730;
+  --third-color: #d33f49;
+}
+
+body {
+  font-family: "Lora", serif;
+  font-size: 24px;
+  background-color: var(--light-color);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2 {
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+a, li, p {
+  color: var(--dark-color);
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 840px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header */
+
+.header {
+  padding: 20px 0 20px 0;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.list-link {
+  transition: color 0.15s;
+  text-decoration: none;
+  color: var(--dark-color);
+}
+
+.list-link:hover {
+  color: var(--third-color);
+}
+
+/* Main */
+
+.main {
+  padding: 20px 0;
+}
+
+.section:not(:last-child) {
+  padding-bottom: 25px;
+}
+
+/* Profile */
+
+.profile-image {
+  width: 125px;
+  height: 125px;
+  object-fit: cover;
+  border-radius: 50%;
+  user-select: none;
+}
+
+/* Contacts */
+
+.contacts li {
+  height: 36px;
+}
+
+/* Education */
+
+.education p {
+  font-size: 18px;
+}
+
+.education a {
+  border-bottom: 2px solid #d33f49;
+  line-height: 38px;
+}
+
+.education li:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+/* Footer */
+
+.footer__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 20px 0;
+}
+
+.rsschool-logo {
+  height: 32px;
+}
+
+.github-logo {
+  color: #000;
+  height: 20px;
+}
+
+.footer p {
+  font-size: 18px;
+}
+
