@@ -1,11 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Tabriz Garashov</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+    <title>CV</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#about" class="list-link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contacts" class="list-link">Contacts</a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="list-link">Skills</a>
+            </li>
+            <li class="nav__item">
+              <a href="#code" class="list-link">Code</a>
+            </li>
+            <li class="nav__item">
+              <a href="#projects" class="list-link">Projects</a>
+            </li>
+            <li class="nav__item">
+              <a href="#education" class="list-link">Education</a>
+            </li>
+            <li class="nav__item">
+              <a href="#languages" class="list-link">Languages</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="container">
+        <section class="section">
+          <h1>Tabriz Garashov</h1>
+          <img
+            class="profile-image"
+            src="assets/img/avatar.jpg"
+            alt="avatar"
+            draggable="false"
+          />
+        </section>
+
+        <section class="section" id="about">
+          <h2>About</h2>
+          <p>
+            I am a beginner frontend developer. I want to learn all the
+            necessary skills to become a junior frontend developer. I am eager
+            to learn new information and willing to put in effort. I have no
+            working experience at the moment.
+          </p>
+        </section>
+
+        <section class="section contacts" id="contacts">
+          <h2>Contacts</h2>
+          <ul>
+            <li>Location: Kazan, Russia</li>
+            <li>Email: garashov123@gmail.com</li>
+            <li>GitHub: github.com/tabrizqw</li>
+            <li>Discord: Tabriz Garashov (@tabrizqw)</li>
+          </ul>
+        </section>
+
+        <section class="section" id="skills">
+          <h2>Skills</h2>
+          <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>Git, GitHub</li>
+            <li>Figma</li>
+          </ul>
+        </section>
+
+        <section class="section" id="code">
+          <h2>Code</h2>
+          <code>
+            function even_or_odd(number) {<br />
+            &nbsp;&nbsp;return (number % 2 === 0) ? "Even" : "Odd"<br />
+            }
+          </code>
+        </section>
+
+        <section class="section" id="projects">
+          <h2>Projects</h2>
+          <ul>
+            <li>
+              <a
+                href="https://tabrizqw.github.io/rsschool-cv/"
+                class="list-link"
+                >CV Project</a
+              >
+            </li>
+          </ul>
+        </section>
+
+        <section class="section education" id="education">
+          <h2>Education</h2>
+          <ul>
+            <li>
+              <p>2019-2024</p>
+              <a href="https://en.kgeu.ru/" class="list-link" target="_blank"
+                >Kazan State Power Engineering University</a
+              >
+            </li>
+            <li>
+              <p>2024-present</p>
+              <a href="https://rs.school/" class="list-link" target="_blank"
+                >RS School</a
+              >
+            </li>
+          </ul>
+        </section>
+
+        <section class="section" id="languages">
+          <h2>Languages</h2>
+          <ul>
+            <li>English - C1, <a href="" class="list-link">certificate</a></li>
+            <li>Russian - native</li>
+          </ul>
+        </section>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <nav class="footer__nav">
+          <a href="https://github.com/tabrizqw" target="_blank"
+            ><img
+              src="assets/img/github_logo.svg"
+              alt="github-logo"
+              class="github-logo"
+          /></a>
+          <p>2024</p>
+          <a href="https://rs.school/courses/javascript" target="_blank"
+            ><img
+              src="assets/img/rs-school-logo.svg"
+              alt="rs-school-logo"
+              class="rsschool-logo"
+          /></a>
+        </nav>
+      </div>
+    </footer>
+  </body>
 </html>
