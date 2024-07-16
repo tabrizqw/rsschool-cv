@@ -17,147 +17,143 @@
     <title>CV</title>
   </head>
   <body>
-    <header class="header">
-      <div class="container">
-        <nav class="nav">
-          <ul class="nav__list">
-            <li class="nav__item">
-              <a href="#about" class="list-link">About</a>
-            </li>
-            <li class="nav__item">
-              <a href="#contacts" class="list-link">Contacts</a>
-            </li>
-            <li class="nav__item">
-              <a href="#skills" class="list-link">Skills</a>
-            </li>
-            <li class="nav__item">
-              <a href="#code" class="list-link">Code</a>
-            </li>
-            <li class="nav__item">
-              <a href="#projects" class="list-link">Projects</a>
-            </li>
-            <li class="nav__item">
-              <a href="#education" class="list-link">Education</a>
-            </li>
-            <li class="nav__item">
-              <a href="#languages" class="list-link">Languages</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
+    <header class="header container">
+      <nav class="nav">
+        <ul class="list nav__list list__style-none">
+          <li class="nav__item">
+            <a href="#about" class="link">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contacts" class="link">Contacts</a>
+          </li>
+          <li class="nav__item">
+            <a href="#skills" class="link">Skills</a>
+          </li>
+          <li class="nav__item">
+            <a href="#code" class="link">Code</a>
+          </li>
+          <li class="nav__item">
+            <a href="#projects" class="link">Projects</a>
+          </li>
+          <li class="nav__item">
+            <a href="#education" class="link">Education</a>
+          </li>
+          <li class="nav__item">
+            <a href="#languages" class="link">Languages</a>
+          </li>
+        </ul>
+      </nav>
     </header>
 
-    <main class="main">
-      <div class="container">
-        <section class="section">
-          <h1>Tabriz Garashov</h1>
-          <img
-            class="profile-image"
-            src="assets/img/avatar.jpg"
-            alt="avatar"
-            draggable="false"
-          />
-        </section>
+    <main class="main container">
+      <section class="profile">
+        <h1>Tabriz Garashov</h1>
+        <img
+          class="profile__image"
+          src="assets/img/avatar.jpg"
+          alt="avatar"
+          draggable="false"
+        />
+      </section>
 
-        <section class="section" id="about">
-          <h2>About</h2>
-          <p>
-            I am a beginner frontend developer. I want to learn all the
-            necessary skills to become a junior frontend developer. I am eager
-            to learn new information and willing to put in effort. I have no
-            working experience at the moment.
-          </p>
-        </section>
+      <section id="about">
+        <h2>About</h2>
+        <p>
+          I am a beginner frontend developer. I want to learn all the necessary
+          skills to become a junior frontend developer. I am eager to learn new
+          information and willing to put in effort. I have no working experience
+          at the moment.
+        </p>
+      </section>
 
-        <section class="section contacts" id="contacts">
-          <h2>Contacts</h2>
-          <ul>
-            <li>Location: Kazan, Russia</li>
-            <li>Email: garashov123@gmail.com</li>
-            <li>GitHub: github.com/tabrizqw</li>
-            <li>Discord: Tabriz Garashov (@tabrizqw)</li>
-          </ul>
-        </section>
+      <section class="contacts" id="contacts">
+        <h2>Contacts</h2>
+        <ul class="list">
+          <li><span>Location: Kazan, Russia</span></li>
+          <li><span>Email: garashov123@gmail.com</span></li>
+          <li><span>GitHub: github.com/tabrizqw</span></li>
+          <li><span>Discord: Tabriz Garashov (@tabrizqw)</span></li>
+        </ul>
+      </section>
 
-        <section class="section" id="skills">
-          <h2>Skills</h2>
-          <ul>
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>JavaScript</li>
-            <li>Git, GitHub</li>
-            <li>Figma</li>
-          </ul>
-        </section>
+      <section id="skills">
+        <h2>Skills</h2>
+        <ul class="list">
+          <li><span>HTML5</span></li>
+          <li><span>CSS3</span></li>
+          <li><span>JavaScript</span></li>
+          <li><span>Git, GitHub</span></li>
+          <li><span>Figma</span></li>
+        </ul>
+      </section>
 
-        <section class="section" id="code">
-          <h2>Code</h2>
-          <code>
-            function even_or_odd(number) {<br />
-            &nbsp;&nbsp;return (number % 2 === 0) ? "Even" : "Odd"<br />
-            }
-          </code>
-        </section>
+      <section id="code">
+        <h2>Code</h2>
+        <code>
+          function even_or_odd(number) {<br />
+          &nbsp;&nbsp;return (number % 2 === 0) ? "Even" : "Odd"<br />
+          }
+        </code>
+      </section>
 
-        <section class="section" id="projects">
-          <h2>Projects</h2>
-          <ul>
-            <li>
-              <a
-                href="https://tabrizqw.github.io/rsschool-cv/"
-                class="list-link"
-                >CV Project</a
-              >
-            </li>
-          </ul>
-        </section>
+      <section id="projects">
+        <h2>Projects</h2>
+        <ul class="list">
+          <li>
+            <a href="https://tabrizqw.github.io/rsschool-cv/" class="link"
+              ><span>CV Project</span></a
+            >
+          </li>
+          <li>
+            <a href="" class="link"><span>Shelter</span></a>
+          </li>
+        </ul>
+      </section>
 
-        <section class="section education" id="education">
-          <h2>Education</h2>
-          <ul>
-            <li>
-              <p>2019-2024</p>
-              <a href="https://en.kgeu.ru/" class="list-link" target="_blank"
-                >Kazan State Power Engineering University</a
-              >
-            </li>
-            <li>
-              <p>2024-present</p>
-              <a href="https://rs.school/" class="list-link" target="_blank"
-                >RS School</a
-              >
-            </li>
-          </ul>
-        </section>
+      <section class="education" id="education">
+        <h2>Education</h2>
+        <ul class="list__style-none">
+          <li>
+            <p>2019-2024</p>
+            <a href="https://en.kgeu.ru/" class="link" target="_blank"
+              >Kazan State Power Engineering University</a
+            >
+          </li>
+          <li>
+            <p>2024-present</p>
+            <a href="https://rs.school/" class="link" target="_blank"
+              >RS School</a
+            >
+          </li>
+        </ul>
+      </section>
 
-        <section class="section" id="languages">
-          <h2>Languages</h2>
-          <ul>
-            <li>English - C1, <a href="" class="list-link">certificate</a></li>
-            <li>Russian - native</li>
-          </ul>
-        </section>
-      </div>
+      <section id="languages">
+        <h2>Languages</h2>
+        <ul class="list">
+          <li>
+            <span>English - C1, <a href="" class="link">certificate</a></span>
+          </li>
+          <li><span>Russian - native</span></li>
+        </ul>
+      </section>
     </main>
 
-    <footer class="footer">
-      <div class="container">
-        <nav class="footer__nav">
-          <a href="https://github.com/tabrizqw" target="_blank"
-            ><img
-              src="assets/img/github_logo.svg"
-              alt="github-logo"
-              class="github-logo"
-          /></a>
-          <p>2024</p>
-          <a href="https://rs.school/courses/javascript" target="_blank"
-            ><img
-              src="assets/img/rs-school-logo.svg"
-              alt="rs-school-logo"
-              class="rsschool-logo"
-          /></a>
-        </nav>
-      </div>
+    <footer class="footer container">
+      <nav class="footer__nav grid-2x2">
+        <a href="https://github.com/tabrizqw" target="_blank">
+          <svg class="icon github-logo">
+            <use xlink:href="assets/img/github-logo.svg#github-logo"></use>
+          </svg>
+        </a>
+        <span class="grid-span-2">2024</span>
+        <a href="https://rs.school/courses/javascript" target="_blank"
+          ><img
+            src="assets/img/rs-school-logo.svg"
+            alt="rs-school-logo"
+            class="rsschool-logo"
+        /></a>
+      </nav>
     </footer>
   </body>
 </html>
